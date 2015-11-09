@@ -1,0 +1,22 @@
+module.exports = {
+	speed:{
+		base:5,
+		active:{
+			walking:"x1",
+			running:"x2"
+		},
+		world:{
+			waterfall:"x10"
+		},
+		pasive:{
+			train:"x12"
+		}
+	},
+	keys:{
+		up:"up",
+		down:"down",
+		left:"left",
+		right:"right",
+		speed_mod:"shift"
+	}
+}

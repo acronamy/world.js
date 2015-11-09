@@ -1,0 +1,10 @@
+{
+	"src":{
+		"scripts":"__root/src/scripts",
+		"styles":"__root/src/styles"
+	},
+	"dest":{
+		"scripts":"__root/public/scripts",
+		"styles":"__root/public/styles"
+	}
+}

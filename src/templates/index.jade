@@ -1,0 +1,10 @@
+head
+	include partial/head/index
+
+body
+	include partial/content/index
+	if conf.socketIO
+		script(src='/socket.io/socket.io.js')
+		script.
+			window.socket = io()
+	include partial/head/scripts/scripts_main.jade
